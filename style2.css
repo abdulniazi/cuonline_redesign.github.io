@@ -1,0 +1,103 @@
+
+body{
+	background: -webkit-linear-gradient(left, #2F4F4F, #20B2AA);
+}
+
+
+ #sidebar {
+    background-color: rgba(108, 122, 137, 1) ;
+    width: 230px;
+    height: 120%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    font-size: 20px;
+    justify-content: space-around;
+    margin-left: 20px;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+} 
+
+	.topnav {
+		display: flex;
+  overflow: hidden;
+  background-color: rgba(108, 122, 137, 1);
+  padding: 0px 600px;
+  height: 40px;
+  width: 100px;
+
+}
+.but{
+		background-color: grey;
+		width: 90px;
+		height: 40px;
+}
+.but:hover
+{
+	background: -webkit-linear-gradient(left, #20B2AA, #87CEFA);
+}
+
+.button
+{
+	
+	padding: 7px;
+	background-color: #C0C0C0;
+	border-radius: 15px;
+
+	
+
+}
+.button:hover
+{
+
+	background: -webkit-linear-gradient(left, #20B2AA, #87CEFA);
+}
+
+
+.content-box{
+	padding: 0.5%;
+	border-color: black;
+	border-style: solid;
+	border-width: small;
+	background-color: #FFFFE0;
+	text-align: left;
+	border-radius: 25px;
+	margin-left: 280px;
+	margin-top: 30px;
+}
+h3{
+	padding: 0.5%;
+	border-color: #808080;
+	border-style: solid;
+	border-width: small;
+	background-color: #D3D3D3;
+	text-align: left;
+	border-radius: 15px;
+}
+
+#ctl00_DataContent_divMessage{
+	padding: 0.7%;
+	border-color: #00BFFF;
+	border-style: solid;
+	border-width: small;
+	background-color: #B0E0E6;
+	border-radius: 25px;
+}
+
+.table_mid{
+	margin-top: 1.2%;
+	padding: 0.7%;
+	border-color: #808080;
+	border-style: solid;
+	border-width: small;
+	background-color: #D3D3D3;
+	border-radius: 25px;
+}
+#ctl00_DataContent_div1{
+	padding: 0.7%;
+	border-color: #00BFFF;
+	border-style: solid;
+	border-width: small;
+	background-color:  #B0E0E6;
+	border-radius: 25px;
+}
